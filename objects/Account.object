@@ -34,13 +34,6 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
-<fields>
-        <fullName>Field_Five__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Field Five</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text<</type>
-    </fields>
+
 
 </CustomObject>
