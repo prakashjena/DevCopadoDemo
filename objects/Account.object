@@ -40,7 +40,7 @@
         <externalId>false</externalId>
         <label>Field Five</label>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Email</type>
+        <type>Text<</type>
     </fields>
 
 </CustomObject>
