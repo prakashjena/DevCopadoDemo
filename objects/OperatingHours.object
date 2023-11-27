@@ -128,15 +128,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <fields>
-        <fullName>Description</fullName>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-    </fields>
-    <fields>
-        <fullName>TimeZone</fullName>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>

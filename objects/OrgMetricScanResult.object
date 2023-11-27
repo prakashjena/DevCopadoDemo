@@ -127,9 +127,5 @@
         <type>Default</type>
     </actionOverrides>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <fields>
-        <fullName>ItemStatus</fullName>
-        <type>Picklist</type>
-    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

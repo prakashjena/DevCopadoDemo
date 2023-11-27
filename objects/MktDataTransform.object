@@ -72,31 +72,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>DataTransformDefinitionId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>DataTransformStatus</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LastRunStatus</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LastRunTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Type</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>Type</customTabListAdditionalFields>
         <customTabListAdditionalFields>DataTransformStatus</customTabListAdditionalFields>

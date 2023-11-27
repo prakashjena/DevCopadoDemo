@@ -86,18 +86,5 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <fields>
-        <fullName>KnowledgeArticleId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>KnowledgeArticleVersionId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Type</fullName>
-    </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

@@ -113,32 +113,6 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <fields>
-        <fullName>IsActive</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Pricebook2Id</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Product2Id</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ProductCode</fullName>
-    </fields>
-    <fields>
-        <fullName>StandardPrice</fullName>
-    </fields>
-    <fields>
-        <fullName>UnitPrice</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>UseStandardPrice</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
     <searchLayouts>
         <searchResultsAdditionalFields>PRODUCT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PRODUCT.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>

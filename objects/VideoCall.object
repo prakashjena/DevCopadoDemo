@@ -58,61 +58,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Description</fullName>
-    </fields>
-    <fields>
-        <fullName>DurationInSeconds</fullName>
-    </fields>
-    <fields>
-        <fullName>EndDateTime</fullName>
-    </fields>
-    <fields>
-        <fullName>EventId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>HostId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>IntelligenceScore</fullName>
-    </fields>
-    <fields>
-        <fullName>IsCallCoachingIncluded</fullName>
-    </fields>
-    <fields>
-        <fullName>IsDiarizationOptIn</fullName>
-    </fields>
-    <fields>
-        <fullName>IsRecorded</fullName>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-    </fields>
-    <fields>
-        <fullName>OwnerId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>RelatedRecordId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>StartDateTime</fullName>
-    </fields>
-    <fields>
-        <fullName>TranscribedLanguage</fullName>
-    </fields>
-    <fields>
-        <fullName>VendorMeetingKey</fullName>
-    </fields>
-    <fields>
-        <fullName>VendorMeetingUuid</fullName>
-    </fields>
-    <fields>
-        <fullName>VendorName</fullName>
-    </fields>
     <searchLayouts>
         <lookupDialogsAdditionalFields>StartDateTime</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>DurationInSeconds</lookupDialogsAdditionalFields>

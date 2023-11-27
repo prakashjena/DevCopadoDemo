@@ -27,4 +27,38 @@
     <pluralLabel>DevCopadoDemos</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <compactLayouts>
+        <fullName>Knowledge_Easy_Compact_Layout</fullName>
+        <fields>ArticleNumber</fields>
+        <fields>VersionNumber</fields>
+        <fields>PublishStatus</fields>
+        <fields>LastModifiedDate</fields>
+        <label>Knowledge Easy Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Name</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>First Name</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ArticleBody__c</fullName>
+        <externalId>false</externalId>
+        <label>Article Body</label>
+        <length>131072</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
 </CustomObject>

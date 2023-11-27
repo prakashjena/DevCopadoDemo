@@ -30,20 +30,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <fields>
-        <fullName>Email</fullName>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-    </fields>
-    <fields>
-        <fullName>RelatedPersonId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>VideoCallId</fullName>
-        <type>MasterDetail</type>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>VideoCall</customTabListAdditionalFields>
         <customTabListAdditionalFields>Email</customTabListAdditionalFields>

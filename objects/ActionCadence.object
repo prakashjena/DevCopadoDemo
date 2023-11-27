@@ -170,25 +170,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>ActivatedDate</fullName>
-    </fields>
-    <fields>
-        <fullName>Description</fullName>
-    </fields>
-    <fields>
-        <fullName>FolderId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-    </fields>
-    <fields>
-        <fullName>State</fullName>
-    </fields>
-    <fields>
-        <fullName>Type</fullName>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>State</customTabListAdditionalFields>
         <customTabListAdditionalFields>Type</customTabListAdditionalFields>

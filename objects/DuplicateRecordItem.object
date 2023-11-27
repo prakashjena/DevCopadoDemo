@@ -114,13 +114,5 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <fields>
-        <fullName>DuplicateRecordSetId</fullName>
-        <type>MasterDetail</type>
-    </fields>
-    <fields>
-        <fullName>RecordId</fullName>
-        <type>Lookup</type>
-    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

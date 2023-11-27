@@ -128,21 +128,5 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <fields>
-        <fullName>DayOfWeek</fullName>
-    </fields>
-    <fields>
-        <fullName>EndTime</fullName>
-    </fields>
-    <fields>
-        <fullName>OperatingHoursId</fullName>
-        <type>MasterDetail</type>
-    </fields>
-    <fields>
-        <fullName>StartTime</fullName>
-    </fields>
-    <fields>
-        <fullName>Type</fullName>
-    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

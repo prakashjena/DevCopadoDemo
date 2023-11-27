@@ -72,22 +72,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <fields>
-        <fullName>ActionStatus</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Description</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LastActionStatusDateTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>ActionStatus</customTabListAdditionalFields>
         <customTabListAdditionalFields>CreatedBy</customTabListAdditionalFields>

@@ -198,12 +198,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>ManagerId</fullName>
-        <securityClassification>Confidential</securityClassification>
-        <trackFeedHistory>true</trackFeedHistory>
-        <type>Hierarchy</type>
-    </fields>
     <searchLayouts>
         <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CORE.USER_ROLE.NAME</lookupDialogsAdditionalFields>

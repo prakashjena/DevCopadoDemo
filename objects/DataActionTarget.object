@@ -72,22 +72,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>LastTargetStatusDateTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LastTargetStatusErrorCode</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>TargetStatus</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>TargetStatus</customTabListAdditionalFields>
         <customTabListAdditionalFields>CreatedBy</customTabListAdditionalFields>

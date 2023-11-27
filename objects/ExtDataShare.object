@@ -72,14 +72,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <fields>
-        <fullName>DataShareStatus</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>DataShareStatus</customTabListAdditionalFields>
         <customTabListAdditionalFields>ObjectCount</customTabListAdditionalFields>

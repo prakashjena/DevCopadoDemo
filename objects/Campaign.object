@@ -157,16 +157,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Description</fullName>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-    </fields>
-    <fields>
-        <fullName>OwnerId</fullName>
-        <type>Lookup</type>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>

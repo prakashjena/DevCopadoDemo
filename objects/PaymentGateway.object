@@ -114,25 +114,5 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>ReadWrite</externalSharingModel>
-    <fields>
-        <fullName>Comments</fullName>
-    </fields>
-    <fields>
-        <fullName>ExternalReference</fullName>
-    </fields>
-    <fields>
-        <fullName>MerchantCredentialId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PaymentGatewayName</fullName>
-    </fields>
-    <fields>
-        <fullName>PaymentGatewayProviderId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Status</fullName>
-    </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
