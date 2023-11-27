@@ -39,6 +39,7 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Field Five</label>
+		<length>200</length>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
     </fields>
