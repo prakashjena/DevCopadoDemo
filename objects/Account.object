@@ -36,12 +36,13 @@
     </fields>
 <fields>
         <fullName>Field_Five__c</fullName>
-        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Field Five</label>
-		<length>200</length>
+        <length>200</length>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
+        <unique>false</unique>
     </fields>
 
 </CustomObject>
