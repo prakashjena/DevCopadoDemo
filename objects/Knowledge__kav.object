@@ -19,23 +19,27 @@
         </articleTypeTemplates>
     </articleTypeChannelDisplay>
     <compactLayoutAssignment>Knowledge_Easy_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Knowledge_Easy_Compact_Layout</fullName>
+        <fields>ArticleNumber</fields>
+        <fields>VersionNumber</fields>
+        <fields>PublishStatus</fields>
+        <fields>LastModifiedDate</fields>
+        <label>Knowledge Easy Compact Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>This is to test the Copado configuration</description>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
-    <label>DevCopadoDemo</label>
-    <pluralLabel>DevCopadoDemos</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
     <fields>
-        <fullName>Last_Name__c</fullName>
+        <fullName>ArticleBody__c</fullName>
         <externalId>false</externalId>
-        <label>Last Name</label>
-        <length>200</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
+        <label>Article Body</label>
+        <length>131072</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
     </fields>
+	
     <fields>
         <fullName>First_Name__c</fullName>
         <externalId>false</externalId>
@@ -45,4 +49,26 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+	<fields>
+        <fullName>Middle_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Middle Name</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Name</label>
+        <length>200</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>DevCopadoDemo</label>
+    <pluralLabel>DevCopadoDemos</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
