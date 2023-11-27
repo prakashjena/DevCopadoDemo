@@ -73,47 +73,32 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Description</fullName>
+        <fullName>LastTargetStatusDateTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>LastRefreshDate</fullName>
+        <fullName>LastTargetStatusErrorCode</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>MktDataLakeObjectId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>TotalRecords</fullName>
+        <fullName>TargetStatus</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>ObjectCategory</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Storage</customTabListAdditionalFields>
-        <customTabListAdditionalFields>DataLakeObjectStatus</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastRefreshDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>TotalRecords</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>ObjectCategory</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Storage</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>DataLakeObjectStatus</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LastRefreshDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>TotalRecords</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ObjectCategory</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Storage</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>DataLakeObjectStatus</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastRefreshDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>TotalRecords</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>ObjectCategory</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Storage</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>DataLakeObjectStatus</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastRefreshDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>TotalRecords</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>TargetStatus</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CreatedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ManagedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CreatedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>TargetStatus</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ManagedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

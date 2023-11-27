@@ -15,6 +15,48 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -25,6 +67,20 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -73,47 +129,51 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Description</fullName>
+        <fullName>AlternateText</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>LastRefreshDate</fullName>
+        <fullName>CapturedAngle</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>MktDataLakeObjectId</fullName>
+        <fullName>ContentDocumentId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ImageClass</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ImageClassObjectType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ImageViewType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>TotalRecords</fullName>
+        <fullName>Title</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Url</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>ObjectCategory</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Storage</customTabListAdditionalFields>
-        <customTabListAdditionalFields>DataLakeObjectStatus</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastRefreshDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>TotalRecords</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>ObjectCategory</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Storage</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>DataLakeObjectStatus</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LastRefreshDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>TotalRecords</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ObjectCategory</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Storage</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>DataLakeObjectStatus</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastRefreshDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>TotalRecords</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>ObjectCategory</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Storage</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>DataLakeObjectStatus</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastRefreshDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>TotalRecords</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

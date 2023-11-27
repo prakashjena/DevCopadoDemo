@@ -71,49 +71,34 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>ActionStatus</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>LastRefreshDate</fullName>
+        <fullName>LastActionStatusDateTime</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>MktDataLakeObjectId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <fields>
-        <fullName>TotalRecords</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>ObjectCategory</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Storage</customTabListAdditionalFields>
-        <customTabListAdditionalFields>DataLakeObjectStatus</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastRefreshDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>TotalRecords</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>ObjectCategory</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Storage</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>DataLakeObjectStatus</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LastRefreshDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>TotalRecords</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ObjectCategory</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Storage</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>DataLakeObjectStatus</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastRefreshDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>TotalRecords</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>ObjectCategory</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Storage</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>DataLakeObjectStatus</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastRefreshDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>TotalRecords</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>ActionStatus</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CreatedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ManagedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CreatedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>ActionStatus</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ManagedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

@@ -73,47 +73,47 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Description</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LastRefreshDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>MktDataLakeObjectId</fullName>
+        <fullName>DataTransformDefinitionId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DataTransformStatus</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastRunStatus</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastRunTime</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>TotalRecords</fullName>
+        <fullName>Type</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>ObjectCategory</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Storage</customTabListAdditionalFields>
-        <customTabListAdditionalFields>DataLakeObjectStatus</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastRefreshDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>TotalRecords</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>ObjectCategory</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Storage</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>DataLakeObjectStatus</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LastRefreshDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>TotalRecords</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ObjectCategory</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Storage</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>DataLakeObjectStatus</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastRefreshDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>TotalRecords</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>ObjectCategory</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Storage</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>DataLakeObjectStatus</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastRefreshDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>TotalRecords</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>Type</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DataTransformStatus</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastRunStatus</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastRunTime</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Type</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>DataTransformStatus</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastRunStatus</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastRunTime</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Type</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>DataTransformStatus</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastRunStatus</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastRunTime</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Type</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DataTransformStatus</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastRunStatus</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastRunTime</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -77,43 +77,30 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>LastRefreshDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>MktDataLakeObjectId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <fields>
-        <fullName>TotalRecords</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>ObjectCategory</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Storage</customTabListAdditionalFields>
-        <customTabListAdditionalFields>DataLakeObjectStatus</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MlModelApiName</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AggregatedStatus</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastRunStatus</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastRefreshDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>TotalRecords</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>ObjectCategory</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Storage</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>DataLakeObjectStatus</lookupDialogsAdditionalFields>
+        <customTabListAdditionalFields>LastProcessedRecords</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>MlModelApiName</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>AggregatedStatus</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastRunStatus</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>LastRefreshDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>TotalRecords</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ObjectCategory</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Storage</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>DataLakeObjectStatus</lookupPhoneDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastProcessedRecords</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>MlModelApiName</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AggregatedStatus</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastRunStatus</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LastRefreshDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>TotalRecords</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>ObjectCategory</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Storage</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>DataLakeObjectStatus</searchResultsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastProcessedRecords</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>MlModelApiName</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AggregatedStatus</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastRunStatus</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastRefreshDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>TotalRecords</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastProcessedRecords</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>
